@@ -20,7 +20,6 @@ public class Tower : MonoBehaviour
     private void OnMouseDown()
     {
         Main_Camera.TargetTower = gameObject;
-
         //GameObjectUtility.SetStaticEditorFlags(gameObject, StaticEditorFlags.NavigationStatic);
 
 
